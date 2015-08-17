@@ -1,0 +1,129 @@
+﻿
+
+    <%--#Panel1
+    {
+        background-color:#2554C7;
+        border-radius:50px;
+        
+        width:550px;
+       
+        }--%>
+    
+    #panel2
+    {
+        
+        
+        }
+        
+        .B
+        {
+         
+            border:3px solid #EDDA7A;
+            font-family:Brush Script MT;
+            background-color: #FFA62F;
+            color:Black;
+            font-size:25px;
+            width:140px;
+            height:32px;
+            margin-left:200px;
+            
+            
+            
+            }
+            .B:hover
+            {
+                background-color:grey;
+                
+                
+                
+                }
+    
+    
+    
+    #prsnl1
+    {
+        margin-left:400px;
+       
+        }
+        #prsnl2
+        {
+            margin-left:400px;
+            
+         
+            }
+            
+            #edu1
+            {
+                margin-left:400px;
+                
+                
+                }
+                #edu2
+                {
+                    margin-left:400px;
+                    
+                    
+                    
+                    }
+            
+            
+            h3
+            {
+                font-style:italic;
+                font-family:Comic Sans MS;
+                color:grey;
+                
+                
+                
+                
+                }
+           
+        .a
+        {
+            border-radius:50px;
+            background-color:#FFA62F;
+            border:1px solid #347C17;
+            opacity:0.6;
+            width:200px;
+            font-style:italic;
+            height:38px;
+            font-family:Comic Sans MS;
+            font-size:25px;
+            
+            
+          
+            
+            }
+            
+            .c
+            {
+            border-radius:50px;
+            background-color:#8D3869;
+            border:1px solid #347C17;
+            opacity:0.6;
+            width:200px;
+            font-style:italic;
+            height:38px;
+            font-family:Comic Sans MS;
+            font-size:25px;
+                
+                
+                
+                
+                
+                
+                }
+            
+            
+            h2
+            {
+                font-family:Brush Script MT;
+                color:#EDDA7A;
+                font-size:45px;
+                margin-left:120px;
+                
+                
+                }
+    
+    
+    

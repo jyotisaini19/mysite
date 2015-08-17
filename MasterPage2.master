@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+
+    <link href="Styles/StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body background="bg.jpg">
+    <form id="form1" runat="server">
+    <div>
+    <div id="nav">
+    <div id="margin">
+    <div class="circle">
+      
+        <asp:ImageButton ID="img1" runat="server" ImageUrl="navbar/my_profile_green.png"
+         Height="100px" Width="100px" onclick="img1_Click" />
+        <h1>MY PROFILE</h1>
+
+    </div>
+    
+    <div id="addfrnd">
+    <h1>ADD FRIEND</h1>
+    
+
+    <asp:ImageButton ID="imgg3" runat="server" ImageUrl="navbar/friends.png" Height="80px" Width="100px" />
+    
+    </div>
+    
+   <div id="myfrnd">
+    
+    
+    
+    <asp:ImageButton ID="Img2" runat="server" ImageUrl="navbar/frnd.png" Height="80px" Width="100px" />
+    <h1>MY FRIENDS</h1>
+    </div>
+
+    <div id="post">
+    
+    
+    <h1>PUBLIC POST</h1>
+    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="navbar/post.png" Height="80px" Width="100px" />
+    
+    </div>
+    
+    <div id="createtp">
+    
+    
+
+    <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="navbar/create.png" Height="80px" Width="100px" />
+    <h1>CREATE TOPIC</h1>
+    </div>
+     <h1>FRIEND REQUEST</h1>
+    <div id="fr">
+    <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="navbar/fr.png" Height="80px" Width="100px" />
+   
+    </div>
+   
+   
+   
+   
+   
+   <div id="mytp">
+    <asp:ImageButton ID="ImageButton4" runat="server" ImageUrl="navbar/mytp.png" Height="80px" Width="100px" />
+    <h1>MY TOPIC</h1>
+    </div>
+    <h1>INVITE TOPIC</h1>
+     <div id="invitetp">
+    <asp:ImageButton ID="ImageButton5" runat="server" ImageUrl="navbar/invite.png" Height="80px" Width="100px" />
+   
+    </div>
+     <div id="changepass">
+    <asp:ImageButton ID="ImageButton6" runat="server" ImageUrl="navbar/changepass.png" 
+             Height="80px" Width="100px" onclick="ImageButton6_Click" />
+    <h1>CHANGE PASSWORD</h1>
+    </div> 
+    <h1>LOG OUT</h1>
+    <div id="logout">
+    <asp:ImageButton ID="ImageButton7" runat="server" ImageUrl="navbar/logout.png" Height="80px" Width="100px" />
+    
+    </div>
+
+    </div>
+    </div>
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage3.master.cs" Inherits="MasterPage3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <script src="Scripts/script.js" type="text/javascript"></script>
+    <link href="Styles/styles.css" rel="stylesheet" type="text/css" />
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body background="background (2).jpg">
+    <form id="form1" runat="server">
+   <%-- <div>
+<ul>
+  <li><a id="a" href="Default3.aspx">MY PROFILE</a></li>
+  <li><a  id="a"href="Default10.aspx">MY TOPIC</a></li>
+  <li><a id="a" href="Default9.aspx">CREATE TOPIC</a></li>
+  <li><a id="a" href ="#about">INVITED TOPICS</a></li>
+   <li><a id="a" href="Default14.aspx">MY FRIENDS</a></li>
+  <li><a  id="a" href="Default12.aspx">ADD FRIEND</a></li>
+  <li><a id="a" href="Default13.aspx">FRIEND REQUEST</a></li>
+  <li><a  id="a" href="Default11.aspx">PUBLIC POST</a></li>
+  <li><a  id="a"href="#contact">SETTINGS</a></li>
+  <li><a  id="a" href="#about">LOGOUT</a></li>
+  
+
+
+</ul>--%>
+   
+    <div id='cssmenu' style="position:relative">
+<ul>
+   <li><a href='myprofile.aspx'><span>MY PROFILE</span></a></li>
+   <li class='active has-sub'><a href='#'><span>TOPICS</span></a>
+      <ul>
+         <li><a href='Default10.aspx'><span>MY TOPICS</span></a>
+          
+         </li>
+         <li><a href='Default9.aspx'><span>CREATE TOPIC</span></a>
+           
+         </li>
+         <li><a href='invitedtopic.aspx'><span>INVITED TOPICS</span></a>
+         
+         </li>
+
+      </ul>
+</li>
+    <li class='active has-sub'><a href='#'><span>FRIENDS</span></a>
+      <ul>
+         <li><a href='Default14.aspx'><span>MY FRIENDS</span></a>
+          
+         </li>
+         <li><a href='Default12.aspx'><span>ADD FRIENDS</span></a>
+           
+         </li>
+         <li><a href='Default13.aspx'><span>FRIEND REQUEST</span></a>
+         
+         </li>
+
+      </ul>
+
+   
+   
+    <li class='active has-sub'><a href='#'><span>NEW FEEDS</span></a>
+      <ul>
+         <li><a href='Default11.aspx'><span>PUBLIC POST</span></a>
+          
+         </li>
+        
+      </ul>
+</li>
+   
+   
+    <li class='active has-sub'><a href='#'><span>SETTINGS</span></a>
+      <ul>
+         <li><a href='updateprofile.aspx'><span>UPDATE PROFILE</span></a>
+          
+         </li>
+         <li><a href='changepassword.aspx'><span>CHANGE PASSWORD</span></a>
+           
+         </li>
+        
+
+      </ul>
+</li>
+   
+   
+   
+   <li><a href='logout.aspx'><span>LOG OUT</span></a></li>
+  
+</ul>
+</div>
+
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+    </form>
+</body>
+</html>
